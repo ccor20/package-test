@@ -1,4 +1,18 @@
 {
+  "name": "package-test",
+  "version": "1.0.0",
+  "description": "A repository with multiple packages",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy-date-logic": "cd packages/date-logic && lerna publish --force-publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ccortes96/package-test"
+  },
+  "author": "Ccorp20",
+  "license": "ISC",
   "dependencies": {
     "lerna": "^8.1.5"
   }
