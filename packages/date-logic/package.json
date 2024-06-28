@@ -1,0 +1,15 @@
+{
+  "name": "@ccortes96/date-logic",
+  "version": "1.0.0",
+  "description": "A package that returns the current date",
+  "main": "index.js",
+  "repository": "https://github.com/ccortes96/package-test",
+  "publishConfig": {
+    "@ccortes96:registry": "https://npm.pkg.github.com/ccortes96"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ccorp20",
+  "license": "ISC"
+}
