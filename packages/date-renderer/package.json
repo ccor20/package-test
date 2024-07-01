@@ -10,9 +10,7 @@
   "publishConfig": {
     "@ccortes96:registry": "https://npm.pkg.github.com"
   },
-  "dependencies": {
-    "@ccortes96/date-logic": "^2.0.1"
-  },
+  "dependencies": {},
   "scripts": {
     "test": "echo TESTS PASSED"
   },
