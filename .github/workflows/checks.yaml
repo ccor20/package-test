@@ -27,3 +27,6 @@ jobs:
       - name: Install dependencies
         run: | # Install and link dependencies
           yarn install --frozen-lockfile
+
+      - name: Run tests # Run tests of all packages
+        run: npx lerna exec npm run test
