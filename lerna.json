@@ -5,7 +5,7 @@
   "npmClient": "yarn",
   "command": {
     "publish": {
-      "registry": "https://npm.pkg.github.com/ccortes96"
+      "@ccortes96:registry": "https://npm.pkg.github.com"
     }
   }
 }
