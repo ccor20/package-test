@@ -1,6 +1,6 @@
 {
   "name": "@ccortes96/date-renderer",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "A package that prints the current date",
   "main": "index.js",
   "repository": {
@@ -11,7 +11,7 @@
     "@ccortes96:registry": "https://npm.pkg.github.com"
   },
   "dependencies": {
-    "@ccortes96/date-logic": "^2.0.0"
+    "@ccortes96/date-logic": "^2.0.1"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
