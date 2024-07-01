@@ -1,6 +1,6 @@
 {
   "name": "@ccortes96/date-renderer",
-  "version": "1.1.1",
+  "version": "2.0.0-beta.0",
   "description": "A package that prints the current date",
   "main": "index.js",
   "repository": {
@@ -10,7 +10,6 @@
   "publishConfig": {
     "@ccortes96:registry": "https://npm.pkg.github.com"
   },
-  "dependencies": {},
   "scripts": {
     "test": "echo TESTS PASSED"
   },

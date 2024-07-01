@@ -1,6 +1,6 @@
 {
   "name": "@ccortes96/date-logic",
-  "version": "2.0.1",
+  "version": "2.1.0-beta.0",
   "description": "A package that returns the current date",
   "main": "index.js",
   "repository": {
