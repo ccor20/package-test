@@ -25,8 +25,11 @@ jobs:
 
       - name: "Setup npm"
         run: |
-          npm set @ccortes96:registry=https://npm.pkg.github.com/ccortes96
-          npm set "//npm.pkg.github.com/:_authToken=${{ secrets.GITHUB_TOKEN }}"
+          touch .npmrc
+          echo registry=https://registry.yarnpkg.com/ >> .npmrc
+          echo @ccortes96:registry=https://npm.pkg.github.com/ccortes96 >> .npmrc
+          echo //npm.pkg.github.com/:_authToken=${{ secrets.GPR_ACCESS_TOKEN }} >> .npmrc
+          echo always-auth=true >> .npmrc
 
       - name: "Version and publish"
         env:
