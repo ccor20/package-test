@@ -1,0 +1,32 @@
+name: Checks
+
+on:
+  pull_request:
+    types: [opened, synchronize]
+
+jobs:
+  checks:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: "Checkout" # Download code from the repository
+        uses: actions/checkout@v3 # Public action
+        with:
+          fetch-depth: 0 # Checkout all branches and tags
+
+      - name: "Use NodeJS" # Setup node
+        uses: actions/setup-node@v4 # Public action
+        with:
+          node-version: "latest"
+
+      - name: "Setup npm" # Add our registry to npm config
+        run: | # Custom action
+          npm set @ccortes96:registry=https://npm.pkg.github.com/ccortes96
+          npm set "//npm.pkg.github.com/:_authToken=${{ secrets.GITHUB_TOKEN }}"
+
+      - name: Install dependencies
+        run: | # Install and link dependencies
+          yarn install --frozen-lockfile
+
+      - name: Run tests # Run tests of all packages
+        run: npx lerna exec npm run test
