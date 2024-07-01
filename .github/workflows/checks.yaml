@@ -26,5 +26,5 @@ jobs:
 
       - name: Install dependencies
         run: | # Install and link dependencies
-          npm ci
+          yarn install --frozen-lockfile
           npx lerna bootstrap
