@@ -14,7 +14,7 @@ jobs:
         with:
           fetch-depth: 0 # Checkout all branches and tags
 
-      - name: "Use NodeJS 14" # Setup node using version 14
+      - name: "Use NodeJS" # Setup node
         uses: actions/setup-node@v4 # Public action
         with:
           node-version: "latest"
@@ -27,4 +27,3 @@ jobs:
       - name: Install dependencies
         run: | # Install and link dependencies
           yarn install --frozen-lockfile
-          npx lerna bootstrap
