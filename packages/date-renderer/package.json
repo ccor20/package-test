@@ -1,6 +1,6 @@
 {
   "name": "@ccortes96/date-renderer",
-  "version": "2.0.0-beta.0",
+  "version": "2.0.0-beta.1",
   "description": "A package that prints the current date",
   "main": "index.js",
   "repository": {

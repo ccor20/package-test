@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0-beta.1](https://github.com/ccortes96/package-test/compare/@ccortes96/date-renderer@2.0.0-beta.0...@ccortes96/date-renderer@2.0.0-beta.1) (2024-07-02)
+
+**Note:** Version bump only for package @ccortes96/date-renderer
+
+
+
+
+
 # [2.0.0-beta.0](https://github.com/ccortes96/package-test/compare/@ccortes96/date-renderer@1.1.1...@ccortes96/date-renderer@2.0.0-beta.0) (2024-07-01)
 
 
